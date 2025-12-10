@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nikshith | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- Background gradient + noise overlay -->
+  <div class="bg-gradient"></div>
+  <div class="bg-noise"></div>
+
+  <!-- Header / Navbar -->
+  <header class="header">
+    <div class="container header-inner">
+      <div class="logo">N<span>.</span></div>
+
+      <!-- Mobile nav toggle (pure CSS) -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+
+      <nav class="nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="home" class="section hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="hero-tag">Engineering Student · AI & Web Dev</p>
+          <h1>
+            Hey, I'm <span class="accent">Nikshith</span> <br />
+            I build smart, modern web & AI stuff.
+          </h1>
+          <p class="hero-subtitle">
+            Full-stack web, AI/ML experiments, hackathon-ready prototypes –
+            I like turning chaotic ideas into clean, functional products.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="btn primary">View Projects</a>
+            <a href="#contact" class="btn ghost">Let’s Collaborate</a>
+          </div>
+          <div class="hero-meta">
+            <span>🚀 4+ Hackathons</span>
+            <span>📚 B.Tech CSE (AI & ML)</span>
+            <span>💻 Next.js · FastAPI · TensorFlow</span>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-avatar">
+            <div class="avatar-circle">
+              <span class="avatar-initial">N</span>
+            </div>
+          </div>
+          <div class="hero-info">
+            <h2>Currently</h2>
+            <p>Building AI-powered apps & polishing full-stack skills.</p>
+          </div>
+          <div class="hero-badges">
+            <div class="badge">
+              <h3>9.58 GPA</h3>
+              <p>First Semester</p>
+            </div>
+            <div class="badge">
+              <h3>Azure AI</h3>
+              <p>Certified</p>
+            </div>
+            <div class="badge">
+              <h3>Hackathons</h3>
+              <p>MRU & beyond</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container section-inner two-col">
+        <div>
+          <h2 class="section-title">About Me</h2>
+          <p class="section-text">
+            I'm an engineering student at Malla Reddy University, deep into
+            <strong>AI, ML, and web development</strong>. I enjoy building things
+            that actually solve problems — from AI mentors for pets to health
+            prediction tools for different locations.
+          </p>
+          <p class="section-text">
+            I’ve worked with <strong>React, Next.js, Node.js, FastAPI, Python,
+            TensorFlow, OpenCV</strong> and more. I enjoy hackathons, brainstorming
+            weird ideas, and then wrestling them into real-world apps.
+          </p>
+          <p class="section-text">
+            My long-term goal? Build products that feel like magic but are backed
+            by solid engineering and clean design.
+          </p>
+        </div>
+        <div class="about-highlights">
+          <div class="highlight">
+            <span class="highlight-label">Education</span>
+            <p>B.Tech CSE (AI & ML) – Malla Reddy University</p>
+          </div>
+          <div class="highlight">
+            <span class="highlight-label">Interests</span>
+            <p>AI Apps, Full-Stack, Hackathons, Developer Communities</p>
+          </div>
+          <div class="highlight">
+            <span class="highlight-label">Communities</span>
+            <p>MLSC, GDG, IEC – active member & learner</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Skills</h2>
+        <p class="section-text center">
+          A mix of AI/ML, full-stack development, and tools I use regularly.
+        </p>
+
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h3>Programming</h3>
+            <p>Python, JavaScript (ES6+), TypeScript, C, C++, HTML, CSS</p>
+          </div>
+          <div class="skill-card">
+            <h3>AI / ML</h3>
+            <p>TensorFlow, scikit-learn, OpenCV, Pandas, NumPy, CLIP, Keras</p>
+          </div>
+          <div class="skill-card">
+            <h3>Web & Frameworks</h3>
+            <p>React, Next.js, Node.js, Express, FastAPI, Tailwind, Bootstrap</p>
+          </div>
+          <div class="skill-card">
+            <h3>Databases</h3>
+            <p>MongoDB, Firebase, PostgreSQL, MySQL</p>
+          </div>
+          <div class="skill-card">
+            <h3>Tools</h3>
+            <p>Git & GitHub, VS Code, Postman, Figma, Chrome DevTools</p>
+          </div>
+          <div class="skill-card">
+            <h3>Cloud & APIs</h3>
+            <p>Azure AI, GCP, REST APIs, OpenAI, Gemini</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title center">Projects</h2>
+        <p class="section-text center">
+          Some of the things I've been building and experimenting with.
+        </p>
+
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-tag">AI · Web</div>
+            <h3>PetGuide AI</h3>
+            <p>
+              Intelligent pet care mentor that suggests routines, diet tips,
+              and health checks using APIs and rule-based logic.
+            </p>
+            <ul>
+              <li>Personalized suggestions based on pet data</li>
+              <li>Built with React & Python backend</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Fashion · AI</div>
+            <h3>FashionFusion AI</h3>
+            <p>
+              Mood-based fashion recommendation engine that mixes trends,
+              colors, and user preferences into outfit ideas.
+            </p>
+            <ul>
+              <li>Recommends styles from mood + occasion</li>
+              <li>Uses ML models for pattern understanding</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Health · ML</div>
+            <h3>GeoSick</h3>
+            <p>
+              Predicts illness probability based on location and environmental
+              data like pollution and climate.
+            </p>
+            <ul>
+              <li>Integrates satellite / environmental datasets</li>
+              <li>Built with scikit-learn & interactive UI</li>
+            </ul>
+          </article>
+
+          <article class="project-card">
+            <div class="project-tag">Wellness · AI</div>
+            <h3>Mind Balance AI</h3>
+            <p>
+              Mental health companion for journaling, mood tracking, and
+              gentle insights using NLP.
+            </p>
+            <ul>
+              <li>Daily reflections, mood trends</li>
+              <li>Uses language models for suggestions</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience / Timeline Section -->
+    <section id="experience" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title center">Experience & Highlights</h2>
+        <p class="section-text center">
+          Internships, programs, and moments that shaped my learning.
+        </p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">May–Jun 2025</span>
+              <h3>Web Development Intern – Vault of Codes</h3>
+              <p>
+                Built responsive websites, practiced real-world workflows, and
+                shipped features under deadlines.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">2024–2025</span>
+              <h3>Hackathons & Ideathons</h3>
+              <p>
+                Participated in MRU Hackathons, Jupiverse, Quantanova, and
+                entrepreneurship challenges – focusing on AI & web-based
+                problem solving.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Ongoing</span>
+              <h3>Community Involvement</h3>
+              <p>
+                Active in MLSC, GDG, and IEC – learning, contributing, and
+                staying updated with developer ecosystems.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container contact-grid">
+        <div>
+          <h2 class="section-title">Let’s Build Something</h2>
+          <p class="section-text">
+            Open to internships, collaborations, and hackathon teams. If you
+            have a crazy idea and need someone who'll actually ship it,
+            I’m listening.
+          </p>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> <a href="mailto:nookanikki2k06@gmail.com">nookanikki2k06@gmail.com</a></li>
+            <li><strong>Phone:</strong> <a href="tel:+918309065513">+91 83090 65513</a></li>
+            <li><strong>Location:</strong> Hyderabad, Telangana</li>
+          </ul>
+          <div class="contact-links">
+            <a href="https://github.com/nikki-nooka" target="_blank" rel="noopener">GitHub</a>
+            <a href="https://www.linkedin.com/in/nikshith-nooka-2580302a7/" target="_blank" rel="noopener">LinkedIn</a>
+          </div>
+        </div>
+
+        <form class="contact-form">
+          <h3>Quick Message</h3>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" placeholder="Your name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="msg">Message</label>
+            <textarea id="msg" rows="4" placeholder="Tell me about your idea..."></textarea>
+          </div>
+          <button type="submit" class="btn primary full">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Nikshith Nooka. All rights reserved.</p>
+      <p class="footer-note">Built with HTML & advanced CSS – no JS frameworks.</p>
+    </div>
+  </footer>
+
+  <!-- Tiny inline script just to set year (optional) -->
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
